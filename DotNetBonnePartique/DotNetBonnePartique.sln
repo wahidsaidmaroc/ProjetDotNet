@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoucleForVsForeach", "DemoB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqVsBoucleForeach", "DemoBenchmarking\LinqVsBoucleForeach\LinqVsBoucleForeach\LinqVsBoucleForeach.csproj", "{0F6019C8-B01F-40F5-BDA5-8E20FE12B022}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF9SQLite", "DemoBenchmarking\EF9SQLite\EF9SQLite.csproj", "{55A2C12B-D4F7-4460-8F7B-4387A63D3ECD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{0F6019C8-B01F-40F5-BDA5-8E20FE12B022}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F6019C8-B01F-40F5-BDA5-8E20FE12B022}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F6019C8-B01F-40F5-BDA5-8E20FE12B022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A2C12B-D4F7-4460-8F7B-4387A63D3ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A2C12B-D4F7-4460-8F7B-4387A63D3ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A2C12B-D4F7-4460-8F7B-4387A63D3ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A2C12B-D4F7-4460-8F7B-4387A63D3ECD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,5 +43,6 @@ Global
 		{B477DF3D-364D-4E76-B93C-50169721CA35} = {156D200F-E784-427E-A2D1-F302F7910F94}
 		{26F6E854-7770-4B58-A4D9-78B49708B127} = {156D200F-E784-427E-A2D1-F302F7910F94}
 		{0F6019C8-B01F-40F5-BDA5-8E20FE12B022} = {156D200F-E784-427E-A2D1-F302F7910F94}
+		{55A2C12B-D4F7-4460-8F7B-4387A63D3ECD} = {156D200F-E784-427E-A2D1-F302F7910F94}
 	EndGlobalSection
 EndGlobal
