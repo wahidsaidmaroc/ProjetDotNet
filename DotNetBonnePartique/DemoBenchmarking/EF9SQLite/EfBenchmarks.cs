@@ -20,7 +20,7 @@ public class EfBenchmarks
     [Benchmark]
     public List<Client> WithTracking()
     {
-        return _context.Clients.ToList();
+        return _context.Clients.ToList() ;
     }
 
     [Benchmark]
